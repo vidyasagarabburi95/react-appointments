@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.list-item {
+  list-style-type: none;
+}
+.title-star {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-container {
+  min-height: 50px;
+  min-width: 200px;
+  background-color: transparent;
+  border: 1px solid #b5b7c4;
+  border-radius: 5px;
+  background-size: cover;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.star-button {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+}
+.date {
+  font-size: 14px;
+  color: #b5b7c4;
+  margin-top: 10px;
+}
+.small-image {
+  height: 16px;
+  width: 16px;
+}
